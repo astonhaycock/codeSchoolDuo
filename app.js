@@ -1,8 +1,9 @@
 let gpa = 0;
 let add_button = document.getElementById("add-btn");
+let current_gpa = document.getElementById("current-grade-input");
 let added_grades_div = document.querySelector("added-grades");
 let div_grades = document.querySelectorAll("grade");
-let calculate_grades_button = document.getElementById("calculate");
+let calculate_grades_button = document.getElementById("calculate-btn");
 let getGPA = () => {
     div_grades.forEach((input) => {
         if (parseInt(input.value) >= 90) {
