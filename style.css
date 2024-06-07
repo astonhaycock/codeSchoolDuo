@@ -18,3 +18,7 @@ main{
 #current-grade{
   display: flex;
 }
+.class-container{
+  display: flex;
+  gap: 3rem;
+}
