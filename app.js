@@ -15,4 +15,8 @@ let getGPA = () => {
             gpa++;
         }
     });
+    return gpa;
+};
+calculate_grades_button.onclick = () => {
+    
 };
